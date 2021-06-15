@@ -5,6 +5,7 @@ header{
     no-repeat center;
     background-size: cover;
     height: 900px;
+    background-attachment: fixed;
 }
 .logo{
     float: left;
@@ -56,6 +57,7 @@ nav.header-menu ul li a:hover{
 /* author start */
 .author-content{
     margin-top: -120px;
+    margin-bottom: 120px;
 }
 .author-image{
     width: 222px;
@@ -101,3 +103,85 @@ nav.header-menu ul li a:hover{
     color: #0000ff;
 }
 /* author end */
+
+/* blog start */
+#blog{
+    background-color: #f9f9f9;
+    padding: 100px 0;
+}
+.blog-list-content{
+    background-color: #fff;
+    margin-bottom: 30px;
+    transition: .3s all ease;
+}
+.blog-list-content:hover{
+    box-shadow:  0 0 30px rgba(0, 0, 0, 0.1);
+}
+.blog-list-info{
+    padding: 30px 0 0 30px;
+}
+.blog-list-info ul li{
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #434343;
+}
+.blog-list-info ul li:first-child{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.blog-list-info ul li:first-child img{
+    width: 100%;
+    height: auto;
+}
+.blog-list-info ul li a{
+    color: #434343;
+}
+.blog-list-info ul li a:hover{
+    color: #000;
+    font-weight: 400;
+}
+.blog-list-text{
+    padding: 0 30px;
+}
+.blog-list-text h2{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.blog-list-text p{
+    color: #434343;
+    font-size: 16px;
+    line-height: 30px;
+}
+.blog-list-bottom{
+    padding: 0 0 30px 30px;
+}
+.blog-list-bottom > a{
+    float: left;
+    margin-right: 30px;
+}
+.blog-list-bottom ul{
+    padding-top: 10px;
+}
+.blog-list-bottom ul li{
+    display: inline;
+    margin-right: 20px;
+}
+.blog-list-bottom ul li a{
+    display: inline-block;
+    font-size: 18px;
+    color: #7d7d7d;
+}
+.btn-primary{
+    background-color: transparent;
+    border: 1px solid #0000ff;
+    color: #0000ff;
+    padding: 10px 15px;
+}
+/* blog end */
