@@ -29,3 +29,9 @@ h2{
     font-size: 18px;
     font-weight: bold;
 }
+input:focus{
+    outline: none;
+}
+button{
+    border: none;
+}
