@@ -1,0 +1,53 @@
+/* header start */
+header{
+    background:linear-gradient(rgba(0, 0, 255, 0.5),rgba(0, 0, 255, 0.5)) ,
+    url("../images/header-bg.jpg")
+    no-repeat center;
+    background-size: cover;
+    height: 900px;
+}
+.logo{
+    float: left;
+    margin-top: 90px;
+}
+nav.header-menu{
+    float: right;
+    margin-top: 90px;
+}
+nav.header-menu ul li{
+    display: inline-block;
+    margin-left: 50px;
+}
+nav.header-menu ul li a{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid transparent;
+    transition: 200ms all ease;
+    
+}
+nav.header-menu ul li a:hover{
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+
+}
+.header-text{
+    margin-top: 360px;
+}
+.header-text h1{
+    font-size: 72px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.header-text span{
+    font-weight: 100;
+}
+.header-text p{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+/* header end */
