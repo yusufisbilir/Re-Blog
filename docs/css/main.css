@@ -51,3 +51,53 @@ nav.header-menu ul li a:hover{
     letter-spacing: 1px;
 }
 /* header end */
+
+
+/* author start */
+.author-content{
+    margin-top: -120px;
+}
+.author-image{
+    width: 222px;
+    height: 222px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 255, 0.2);
+}
+.author-image img{
+    width: 100%;
+    height: auto;
+}
+.author-text p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 30px;
+}
+.author-text span{
+    display: block;
+    color: #000;
+    font-weight: 600;
+}
+.author-social-media{
+    text-align: center;
+    margin-top: 40px;
+}
+.author-social-media ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.author-social-media ul li:last-child{
+    margin-right: 0;
+}
+.author-social-media ul li a{
+    font-size: 24px;
+    color: #000;
+    transition: .3s all ease;
+}
+.author-social-media ul li a:hover{
+    color: #0000ff;
+}
+/* author end */
