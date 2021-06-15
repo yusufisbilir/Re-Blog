@@ -185,3 +185,25 @@ nav.header-menu ul li a:hover{
     padding: 10px 15px;
 }
 /* blog end */
+
+
+/* pagination  start*/
+.pagination ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.pagination ul li a{
+    color: #000;
+    display: block;
+    width: 36px;
+    height: 36px;
+    transition: .3s all ease;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 36px;
+}
+.pagination ul li a:hover{
+    background-color: #0000ff;
+    color: #fff;
+}
+/* pagination  end*/
