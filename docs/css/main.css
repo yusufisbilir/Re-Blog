@@ -249,13 +249,38 @@ nav.header-menu ul li a:hover{
     margin-bottom: 30px;
     text-transform: uppercase;
 }
-.recent-post-content{
+.sidebar-content{
     padding: 0 30px;
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 30px;
 }
-.recent-post-content img{
+.sidebar-content img{
     margin-bottom: 10px;
 }
 /* recent post end */
+
+
+/* tags start */
+.tags{
+    background-color: #fff;
+    border: 1px solid #eee;
+    margin: 30px 0;
+}
+.tags-item li{
+    display: inline-block;
+}
+.tags-item li a{
+    display: block ;
+    padding: 10px 12px;
+    border: 1px solid #eee;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: .2s all;
+    color: #666;
+}
+.tags-item li a:hover{
+    background-color: #0000ff;
+    color: #fff;
+}
+/* tags end */
