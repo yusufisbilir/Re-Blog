@@ -284,3 +284,15 @@ nav.header-menu ul li a:hover{
     color: #fff;
 }
 /* tags end */
+
+
+/* footer start */
+footer{
+    background-color: #313131;
+    color: #959595;
+    height: 50px;    
+}
+footer .container .row p{
+    margin: 0 auto;
+}
+/* footer end */
