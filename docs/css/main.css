@@ -231,3 +231,27 @@ nav.header-menu ul li a:hover{
     line-height: 50px;
 }
 /* sidebar end */
+
+
+/* recent post start */
+.recent-post{
+    background-color: #fff;
+    border: 1px solid #eee;
+    margin: 30px 0;
+}
+.sidebar-title{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+}
+.recent-post-content{
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.recent-post-content img{
+    margin-bottom: 10px;
+}
+/* recent post end */
